@@ -81,13 +81,13 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """──────「 *Yor Forger* [🌺](https://telegra.ph/file/f09abdbeba399891b45dc.jpg) 」──────
+PM_START_TEXT = """──────「 *Shanks* [🌺](https://te.legra.ph/file/ece230a3a5655ca7964b0.mp4) 」──────
 
 ×× *Hey! It's Yor, truly Yours! I'm an anime themed group management bot with a lots of advance features!* ××
 ➖➖➖➖➖➖➖➖➖➖
 ×× Try The Command Help Buttons Below To Know My Abilities ××
 
-──『*owened by @strawhatnetwork*』──
+──『*Owened by @Anime_Fandoms_Chat*』──
 """ 
 
 buttons = [
@@ -97,12 +97,12 @@ buttons = [
                             url=f"t.me/{BOT_USERNAME}?startgroup=true"),
                     ],
                      [
-                       InlineKeyboardButton(text="📰 Updates", url=f"https://t.me/StrawhatUpdates"),
-                       InlineKeyboardButton(text="🚑 Support",  url=f"https://t.me/StrawhatTeam"),
+                       InlineKeyboardButton(text="📰 Updates", url=f"https://t.me/ShanksUpdates"),
+                       InlineKeyboardButton(text="🚑 Support",  url=f"https://t.me/ShanksSupport"),
                     ],
                    [
-                       InlineKeyboardButton(text="🧑🏻‍💻 Owner", url=f"https://t.me/SAlTAM4"),
-                       InlineKeyboardButton(text="☠️ StrawHat", url=f"https://t.me/StrawhatNetwork"),
+                       InlineKeyboardButton(text="🧑🏻‍💻 Owner", url=f"https://t.me/Shanks_Kun"),
+                       InlineKeyboardButton(text=" Wizard", url=f"https://t.me/TeamWizardz"),
                 ],[ InlineKeyboardButton(text="⚙️ Command Help", callback_data="help_back"
          ),
     ],
@@ -125,11 +125,11 @@ And the following:
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """*No need to donate, I'm free for everyone. Just add @YorForgerRobot in your group, that's enough for me.*"""
 HELP_IMG= ""
-GROUPSTART_IMG= "https://telegra.ph/file/697f47b640bbc28201ed2.mp4"
+GROUPSTART_IMG= "https://te.legra.ph/file/74acfe8cd363f9cc96a5b.mp4"
 
-VEGETA_IMG = ( "https://telegra.ph/file/f09abdbeba399891b45dc.jpg",
-               "https://telegra.ph/file/02721e56b138bad4a6695.jpg",
-               "https://telegra.ph/file/acd729b9cd8ff513e568f.jpg",)       
+VEGETA_IMG = ( "https://te.legra.ph/file/de970c4096d7349234892.jpg",
+               "https://te.legra.ph/file/c12a91578bbb606c9b5a3.jpg",
+               "https://te.legra.ph/file/8a8278b0eb170532401d4.jpg",)       
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -246,8 +246,8 @@ def start(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="☠️ StrawHat", url=f"https://t.me/StrawHatNetwork"),
-                  InlineKeyboardButton(text="📰 Updates", url=f"t.me/StrawHatUpdates"),
+                  InlineKeyboardButton(text="🏖 Wizard", url=f"https://t.me/Teamwizardz"),
+                  InlineKeyboardButton(text="📰 Updates", url=f"t.me/ShanksUpdates"),
                   ]
                 ]
             ),
