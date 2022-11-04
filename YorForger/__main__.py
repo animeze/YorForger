@@ -93,7 +93,7 @@ PM_START_TEXT = """──────「 *Shanks* [🌺](https://te.legra.ph/fil
 buttons = [
     [
         InlineKeyboardButton(
-                            text="➕ Add Yor To Group ➕",
+                            text="➕ Add Shanks To Group ➕",
                             url=f"t.me/{BOT_USERNAME}?startgroup=true"),
                     ],
                      [
@@ -102,7 +102,7 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="🧑🏻‍💻 Owner", url=f"https://t.me/Shanks_Kun"),
-                       InlineKeyboardButton(text=" Wizard", url=f"https://t.me/TeamWizardz"),
+                       InlineKeyboardButton(text="🏖 Wizard", url=f"https://t.me/TeamWizardz"),
                 ],[ InlineKeyboardButton(text="⚙️ Command Help", callback_data="help_back"
          ),
     ],
@@ -123,7 +123,7 @@ And the following:
 """
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """*No need to donate, I'm free for everyone. Just add @YorForgerRobot in your group, that's enough for me.*"""
+DONATE_STRING = """*Donate To @Shanks_Kun.*"""
 HELP_IMG= ""
 GROUPSTART_IMG= "https://te.legra.ph/file/74acfe8cd363f9cc96a5b.mp4"
 
@@ -667,7 +667,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","[YOUR SHANKS IS BACK BABY](https://te.legra.ph/file/ece230a3a5655ca7964b0.mp4)", parse_mode=ParseMode.MARKDOWN) 
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","[YOUR SHANKS IS BACK GUYS](https://te.legra.ph/file/ece230a3a5655ca7964b0.mp4)", parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
