@@ -1,6 +1,6 @@
 """
-(Copyright to @YorForgerRobot
-Powered by @StrawhatNetwork
+(Copyright to @ShanksXRobot
+Powered by @TeamWizardz
 """
 import html
 import os
